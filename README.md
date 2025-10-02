@@ -98,10 +98,10 @@ public class Lab {
     public static PrintStream out = System.out;
 
     public static void main(String[] args) {
+        int x = in.nextInt();
         int a = in.nextInt();
         int b = in.nextInt();
         int c = in.nextInt();
-        int x = in.nextInt();
 
         if(a+b+c<=x){
             out.println(3);
